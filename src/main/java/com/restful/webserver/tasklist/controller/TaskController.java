@@ -20,7 +20,6 @@ import com.restful.webserver.tasklist.dao.TaskDAO;
 import com.restful.webserver.tasklist.model.Task;
 
 @RestController
-// @CrossOrigin(origins = "http://localhost:3000")
 @CrossOrigin(origins = "*", allowedHeaders = "*")
 @RequestMapping("/task")
 public class TaskController {
